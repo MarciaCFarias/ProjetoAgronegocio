@@ -1,4 +1,10 @@
 # 📄 Mapeamento de Processo – Faturamento Troca de Notas
+---
+
+## Fluxograma - Visão Macro do Processo
+
+<img width="2291" height="3711" alt="image" src="https://github.com/user-attachments/assets/3694b20b-5bf4-4ebd-b182-427e74f3a062" />
+
 
 ## Fluxo **TO BE**
 O processo futuro (robotizado) foi estruturado em **SPRINTs**, com execução diária via **Webhook**, integrando dados de XML, JSON e APIs, conforme as etapas principais:
