@@ -3,7 +3,7 @@
 
 ## Fluxograma - Visão Macro do Processo
 
-<img width="2291" height="3711" alt="image" src="https://github.com/user-attachments/assets/3694b20b-5bf4-4ebd-b182-427e74f3a062" />
+<img width="2291" height="3711" alt="image" src="https://github.com/user-attachments/assets/29368337-a105-46bb-ba25-180bfe6390b4" />
 
 
 ## Fluxo **TO BE**
