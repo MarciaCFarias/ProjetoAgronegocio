@@ -1,10 +1,8 @@
 # 📋 Requisitos do Processo – Faturamento Troca de Notas
 
 ## Regras de Negócio
-- O robô deve processar **somente** chamados cujo assunto esteja configurado como:
-  - `"TROCA NOTA – TROCA NOTA"` → `cod_assunto = 8`
-  - `"TROCA NOTA – TROCA NOTA rpa"` → `cod_assunto = 14`
-- Integrações devem ocorrer via **Webhook**, **XML**, **JSON** e **APIs** definidas (Desk Manager, Ordem de Carregamento, SAP, OPUS, SIGAM, SITES DE AGENDAMENTO DE TRANSPORTE).
+- O robô deve processar **somente** chamados cujo assunto esteja configurado como Troca de Nota.
+- Integrações devem ocorrer via **Webhook**, **XML**, **JSON** e **APIs** definidas (Sistema de chamdo, Contrele de Carregamento, SAP, OPUS, SIGAM, SITES DE AGENDAMENTO DE TRANSPORTE).
 - Uso obrigatório da planilha **DE_PARA PARAMETRIZAÇÃO** para:
   - Classificação de produtos.
   - Identificação de veículos e transgenia.
@@ -50,7 +48,7 @@
 - Agendamentos efetuados conforme prazos e regras.
 - Logs gerados para:
   - Sucesso.
-  - Exceções de S=sistema/técnica.
+  - Exceções de Sistema/técnica.
   - Exceções de negócio.
 - Itens com erro direcionados automaticamente para **fila de reprocessamento**.
 
