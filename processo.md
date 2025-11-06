@@ -28,7 +28,7 @@ O processo futuro (robotizado) foi estruturado em **SPRINTs**, com execução di
 
 5. **Verificação do Tipo de Lançamento**
    - Identificação do cenário de operação (remessa, armazenagem, retorno, manifesto).
-   - Execução de lançamentos e agendamentos nos sistemas SAP, OPUS, SIGAM e SITES DE AGENDAMENTO DE TRANSPORTES.
+   - Execução de lançamentos e agendamentos nos sistemas legados, SAP e SITES DE AGENDAMENTO DE TRANSPORTES.
 
 6. **Reprocessamento**
    - Execução de tratativas automáticas para exceções de negócio.
@@ -75,7 +75,6 @@ O robô realiza **até 3 tentativas** em caso de falhas; se persistir, gera **LO
 
 ## Observações
 - O robô **não gera relatórios em planilhas**; todas as informações são enviadas a um banco de dados do cliente.  
-- **Ambiente único (PRD)**: homologações devem ser acompanhadas e conciliadas com a operação real.  
 - Alterações em arquivos, credenciais, campos ou tags devem ser comunicadas previamente para garantir funcionamento.  
 - O uso de dados **DE_PARA** é crítico para o correto lançamento e agendamento.  
 - O processo foi desenhado para ser resiliente, com fallback (estratégia de contingência) e reprocessamento automáticos.  
