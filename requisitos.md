@@ -2,7 +2,7 @@
 
 ## Regras de Negócio
 - O robô deve processar **somente** chamados cujo assunto esteja configurado como Troca de Nota.
-- Integrações devem ocorrer via **Webhook**, **XML**, **JSON** e **APIs** definidas (Sistema de chamdo, Contrele de Carregamento, SAP, OPUS, SIGAM, SITES DE AGENDAMENTO DE TRANSPORTE).
+- Integrações devem ocorrer via **Webhook**, **XML**, **JSON** e **APIs** definidas (Sistema de chamado, Contrele de Carregamento, SAP, sistemas legados e SITES DE AGENDAMENTO DE TRANSPORTE).
 - Uso obrigatório da planilha **DE_PARA PARAMETRIZAÇÃO** para:
   - Classificação de produtos.
   - Identificação de veículos e transgenia.
@@ -40,7 +40,7 @@
 ---
 
 ## Saídas Esperadas
-- **Integração concluída** com todos os sistemas previstos (Webhook, APIs, SAP, OPUS, SIGAM, SITES DE AGENDAMENTO DE TRANSPORTE).
+- **Integração concluída** com todos os sistemas previstos (Webhook, APIs, SAP, sistemas legados e SITES DE AGENDAMENTO DE TRANSPORTE).
 - Dados processados e armazenados em **base de dados do cliente**, com:
   - Informações completas do chamado.
   - Dados validados e consistentes com regras de negócio.
